@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume {
+  background-color: #eef5ff;
+  width: 60%;
+  height: 1200px;
+}
+
+.header {
+  background-color: #176b87;
+  width: 100%;
+  height: 180px;
+  display: flex;
+}
+
+.image {
+  width: 40%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  margin-top: 40px;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.name {
+  color: white;
+  width: 60%;
+  height: 180px;
+}
+
+.name h1 {
+  margin-top: 30px;
+  font-size: 4.2rem;
+}
+.name h3 {
+  font-size: 2.2rem;
+}
+.container {
+  display: flex;
+}
+
+.left-coloum {
+  width: 40%;
+  height: 1020px;
+}
+.right-coloum {
+  width: 60%;
+  height: 1020px;
+}
+
+.dark-line {
+  width: 120px;
+  height: 3px;
+  margin-top: 5px;
+  background-color: #176b87;
+  border-radius: 3px; /* Dark color for the line */
+}
+
+.left-coloum {
+  margin-left: 60px;
+}
+
+.my-contact {
+  margin-top: 120px;
+}
+
+h2 {
+  color: #176b87;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.my-contact ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.my-contact li {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.my-contact img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.aboutme {
+  margin-top: 30px;
+}
+.aboutme p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.right-coloum {
+  padding-right: 50px;
+}
+
+table {
+  margin-top: 20px;
+  width: 600px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #176b87;
+  font-size: 1.3rem;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+.skill {
+  margin-top: 20px;
+}
+.skill ul li {
+  font-size: 1.3rem;
+  margin-left: 25px;
+  margin-top: 5px;
+}
